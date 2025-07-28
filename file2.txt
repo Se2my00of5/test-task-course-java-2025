@@ -1,0 +1,5 @@
+42
+world
+-0.001
+another-string
+1e-3

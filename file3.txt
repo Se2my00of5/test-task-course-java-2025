@@ -1,0 +1,20 @@
+-1.
+.5
+
+100
+1.2.3
+true
+java -jar util.jar file1.txt file2.txt file3.txt
+java -jar util.jar -o output -p result_ file1.txt file2.txt
+java -jar util.jar -s file1.txt file2.txt file3.txt
+java -jar util.jar -f file1.txt file2.txt file3.txt
+
+java -jar util.jar file1.txt
+java -jar util.jar -a file2.txt file3.txt
+
+java -jar util.jar file1.txt non_existent_file.txt file2.txt
+java -jar util.jar -s -f file1.txt
+java -jar util.jar file1.txt file2.txt file1.txt
+
+java -jar util.jar -o -p result_ file1.txt file2.txt
+java -jar util.jar -o output -o  file1.txt file2.txt -p result_
